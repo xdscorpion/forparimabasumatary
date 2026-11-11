@@ -11,7 +11,7 @@ window.CONFIG = {
   from: "Someone who adores you",   // shown under every letter signature
 
   intro: "Today is all about you, {name}. I made this little world just for you, with a few surprises hidden in every corner. Take your time, tap everything, and smile a lot.",
-  introSign: "With love ♡",
+  introSign: "With love, Sumyo",
 
   wishMessage: "May every little wish in your heart come true, {name}.",
   finalMessage: "{name}, you deserve all the happiness in the world. Never stop smiling. Happy Birthday! ♡",
