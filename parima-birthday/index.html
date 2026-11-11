@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffe6ee">
+<meta name="description" content="A little interactive birthday gift.">
+<title>A Little World Made for Parima ♡</title>
+<link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="is-locked">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="phG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe3ec"/><stop offset="1" stop-color="#ffd0b8"/></linearGradient>
+  </defs>
+  <symbol id="heart" viewBox="0 0 32 30"><path fill="currentColor" d="M16 28.5C6.500 20.500 1.500 15.200 1.500 9.400 1.500 5 4.900 1.800 9 1.800c2.900 0 5.500 1.500 7 4 1.500-2.500 4.100-4 7-4 4.100 0 7.500 3.200 7.500 7.600 0 5.800-5 11.100-14.500 19.100z"/></symbol>
+  <symbol id="star" viewBox="0 0 32 32"><path fill="currentColor" d="M16 2l4 9.500 10.200 1-7.700 6.800 2.300 10L16 23.800 7.200 29.300l2.300-10L1.800 12.500 12 11.500z"/></symbol>
+  <symbol id="sparkle" viewBox="0 0 32 32"><path fill="currentColor" d="M16 1c1 8 7 14 15 15-8 1-14 7-15 15C15 23 9 17 1 16c8-1 14-7 15-15z"/></symbol>
+  <symbol id="flower" viewBox="0 0 40 40"><g fill="currentColor"><circle cx="20" cy="9" r="8"/><circle cx="31" cy="17" r="8"/><circle cx="27" cy="30" r="8"/><circle cx="13" cy="30" r="8"/><circle cx="9" cy="17" r="8"/></g><circle cx="20" cy="20" r="6" fill="#ffe7a8"/><circle cx="20" cy="20" r="2.500" fill="#e9b949" opacity=".7"/></symbol>
+  <symbol id="strawberry" viewBox="0 0 32 36"><path fill="#ef5b7b" d="M16 34C8 30 3 22 4 14 5 9 10 7 16 9c6-2 11 0 12 5 1 8-4 16-12 20z"/><g fill="#ffe9a8"><ellipse cx="11" cy="17" rx="1.100" ry="1.800"/><ellipse cx="17" cy="15" rx="1.100" ry="1.800"/><ellipse cx="22" cy="19" rx="1.100" ry="1.800"/><ellipse cx="14" cy="24" rx="1.100" ry="1.800"/><ellipse cx="20" cy="25" rx="1.100" ry="1.800"/><ellipse cx="16" cy="29" rx="1.100" ry="1.800"/></g><path fill="#7fc79a" d="M16 11L9 6l6 1.500L16 2l1 5.500L23 6z"/></symbol>
+  <symbol id="butterfly" viewBox="0 0 40 32"><g fill="currentColor"><path d="M20 16C14 2 2 2 3 12c1 8 10 8 17 4z"/><path d="M20 16C26 2 38 2 37 12c-1 8-10 8-17 4z"/><path opacity=".8" d="M20 17C13 20 6 22 8 28c2 4 9 1 12-11z"/><path opacity=".8" d="M20 17c7 3 14 5 12 11-2 4-9 1-12-11z"/></g><rect x="19" y="8" width="2" height="18" rx="1" fill="#8a5a6a"/></symbol>
+  <symbol id="balloon" viewBox="0 0 40 60"><path fill="currentColor" d="M20 2C9 2 3 11 3 21c0 11 8 20 17 22 9-2 17-11 17-22C37 11 31 2 20 2z"/><path fill="currentColor" d="M20 43l-3 5h6z"/><ellipse cx="13" cy="14" rx="4" ry="7" fill="#fff" opacity=".38" transform="rotate(20 13 14)"/><path d="M20 48c-4 4 4 7 0 11" fill="none" stroke="#c9a1ae" stroke-width="1.200"/></symbol>
+  <symbol id="petal" viewBox="0 0 20 28"><path fill="currentColor" d="M10 1C2 8 1 18 10 27c9-9 8-19 0-26z"/></symbol>
+  <symbol id="bow" viewBox="0 0 100 60"><path fill="currentColor" d="M50 32C38 6 6 2 6 26c0 22 34 22 44 6z"/><path fill="currentColor" d="M50 32C62 6 94 2 94 26c0 22-34 22-44 6z"/><path fill="currentColor" opacity=".85" d="M46 36L28 58l15-4 9-14zM54 36l18 22-15-4-9-14z"/><path d="M50 32C40 14 18 10 14 24M50 32C60 14 82 10 86 24" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/><path d="M6 26c0 22 34 22 44 6M94 26c0 22-34 22-44 6" fill="none" stroke="#000" stroke-opacity=".08" stroke-width="3"/><ellipse cx="50" cy="32" rx="9" ry="10" fill="currentColor"/><ellipse cx="47" cy="29" rx="3" ry="4" fill="#fff" opacity=".45"/></symbol>
+</svg>
+
+<div class="bg" aria-hidden="true">
+  <div class="blob b1" data-speed=".05"></div><div class="blob b2" data-speed="-.04"></div><div class="blob b3" data-speed=".07"></div>
+  <div id="twinkles"></div>
+</div>
+<div id="ambient" aria-hidden="false"></div>
+<canvas id="fx" aria-hidden="true"></canvas>
+
+<!-- Music player -->
+<div id="player" class="player glass" role="group" aria-label="Music player">
+  <button id="play" class="icon-btn" type="button" aria-label="Play music" aria-pressed="false">
+    <svg class="ico-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.500v13a1 1 0 0 0 1.500.9l10-6.500a1 1 0 0 0 0-1.700l-10-6.500A1 1 0 0 0 8 5.500z"/></svg>
+    <svg class="ico-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4.500" height="14" rx="1.500"/><rect x="13.500" y="5" width="4.500" height="14" rx="1.500"/></svg>
+  </button>
+  <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+  <input id="vol" type="range" min="0" max="100" value="60" aria-label="Volume">
+  <button id="mute" class="icon-btn soft" type="button" aria-label="Mute" aria-pressed="false">
+    <svg class="ico-vol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.500v5h4l5 4v-13l-5 4z" fill="currentColor"/><path d="M16.500 8.500a5 5 0 0 1 0 7M19 6a8.500 8.500 0 0 1 0 12"/></svg>
+    <svg class="ico-mute" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.500v5h4l5 4v-13l-5 4z" fill="currentColor"/><path d="M17 9l5 6M22 9l-5 6"/></svg>
+  </button>
+</div>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<noscript><p style="position:relative;z-index:99;padding:24px;text-align:center">This little gift needs JavaScript to open ♡</p></noscript>
+
+<!-- ============ 1. PASSCODE ============ -->
+<section id="lock" class="screen" aria-labelledby="lock-title">
+  <div class="lock-inner">
+    <div class="gift mini" data-gift aria-hidden="true"></div>
+    <h1 id="lock-title" class="script-title">A Little Surprise For You, <span data-name>Parima</span> ♡</h1>
+    <p class="lead">Someone has prepared something very special for you...</p>
+    <form id="pass-form" class="glass pass-card" autocomplete="off" novalidate>
+      <label class="pass-label" id="pass-label">Enter your secret passcode</label>
+      <div id="pass-boxes" class="pass-boxes" role="group" aria-labelledby="pass-label"></div>
+      <p id="pass-msg" class="pass-msg" role="status" aria-live="polite"></p>
+      <button id="unlock-btn" class="btn unlock-btn" type="submit">
+        <svg class="lock-ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="3" fill="currentColor" stroke="none"/><path class="shackle" d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+        <span class="unlock-label">Unlock my surprise</span>
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- ============ 2. GIFT STAGE ============ -->
+<section id="gift-stage" class="screen hidden" aria-label="Your gift">
+  <div class="lock-inner">
+    <p class="eyebrow">Unlocked</p>
+    <h2 class="script-title">This one is for you, <span data-name>Parima</span></h2>
+    <button id="gift" class="gift big" type="button" aria-label="Open your gift box" data-gift></button>
+    <p id="gift-hint" class="lead pulse-text">Tap the gift to open it</p>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<main id="experience" class="hidden">
+
+  <section id="hero" class="section hero" aria-labelledby="hero-title">
+    <svg id="bunting" class="bunting" viewBox="0 0 800 120" preserveAspectRatio="none" aria-hidden="true"></svg>
+    <div class="hero-art" aria-hidden="true">
+      <svg class="hb hb1" data-speed="-.08" style="color:#ff9fbd"><use href="#balloon"/></svg>
+      <svg class="hb hb2" data-speed="-.14" style="color:#ffd0b8"><use href="#balloon"/></svg>
+      <svg class="hb hb3" data-speed="-.1" style="color:#f3dfb0"><use href="#balloon"/></svg>
+      <svg class="hb hb4" data-speed="-.12" style="color:#ffb8cc"><use href="#balloon"/></svg>
+      <svg class="hs hs1"><use href="#sparkle"/></svg><svg class="hs hs2"><use href="#sparkle"/></svg><svg class="hs hs3"><use href="#star"/></svg>
+      <svg class="hf hf1"><use href="#butterfly"/></svg>
+    </div>
+    <p class="eyebrow reveal">a little world made for you</p>
+    <h2 id="hero-title" class="hero-title"><span class="ht-line1" data-split data-text="Happy Birthday,"></span><span class="ht-line2" data-split data-text="{name}!"></span></h2>
+    <div class="glass intro-card reveal" style="--d:200ms"><p id="intro-text"></p><p id="intro-sign" class="hand-sign"></p></div>
+    <div class="scroll-cue reveal" style="--d:400ms" aria-hidden="true"><span>scroll</span><i></i></div>
+    <div class="flower-row" data-flowers="4"></div>
+  </section>
+
+  <section id="cake" class="section" aria-labelledby="cake-title">
+    <p class="eyebrow reveal">make a wish</p>
+    <h2 id="cake-title" class="section-title reveal">Your birthday cake, <span data-name>Parima</span></h2>
+    <p class="sub reveal">Tap a candle, or close your eyes, wish for something wonderful and blow them all out.</p>
+    <div class="cake-stage glass reveal">
+      <div id="cake-wrap" class="cake-wrap"></div>
+      <div class="cake-actions">
+        <button id="btn-wish" class="btn btn-ghost" type="button">Make a wish</button>
+        <button id="btn-blow" class="btn" type="button">Blow out the candles</button>
+        <button id="btn-mic" class="btn btn-ghost" type="button" aria-pressed="false">Blow with my microphone</button>
+        <button id="btn-relight" class="btn btn-ghost" type="button">Relight</button>
+      </div>
+      <p id="cake-status" class="status" role="status" aria-live="polite">Tap a candle to blow it out, or use the buttons.</p>
+      <p id="wish-message" class="wish-message" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <section id="letters" class="section" aria-labelledby="letters-title">
+    <div class="flower-row top" data-flowers="3"></div>
+    <p class="eyebrow reveal">written with love</p>
+    <h2 id="letters-title" class="section-title reveal">Little letters, just for you</h2>
+    <p class="sub reveal">Tap an envelope to open it. The last one is sealed until you have read the first two.</p>
+    <div id="letter-grid" class="letter-grid"></div>
+  </section>
+
+  <section id="memories" class="section" aria-labelledby="mem-title">
+    <p class="eyebrow reveal">moments worth keeping</p>
+    <h2 id="mem-title" class="section-title reveal">Our little gallery</h2>
+    <div class="memory-cards" id="memory-cards"></div>
+    <div class="gal-toolbar reveal">
+      <button id="btn-add" class="btn" type="button">Add photos</button>
+      <input id="photo-input" type="file" accept="image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp" multiple hidden>
+      <input id="replace-input" type="file" accept="image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp" hidden>
+    </div>
+    <div id="polaroids" class="polaroids"></div>
+    <p id="gal-note" class="gal-note">Photos you add here are saved in <strong>this browser, on this device</strong> (IndexedDB). To keep photos permanently for everyone, put the image files in <code>assets/images/</code> and refresh.</p>
+  </section>
+
+  <section id="scrapbook" class="section" aria-labelledby="sb-title">
+    <p class="eyebrow reveal">handmade</p>
+    <h2 id="sb-title" class="section-title reveal">The memory book</h2>
+    <p class="sub reveal">Tap a page to turn it. Look closely, there are little secrets hidden inside.</p>
+    <div class="book-wrap reveal">
+      <div id="book" class="book" tabindex="0" aria-label="Scrapbook. Use left and right arrow keys or the buttons to turn pages."></div>
+    </div>
+    <div class="book-nav">
+      <button id="bk-prev" class="btn btn-ghost" type="button" aria-label="Previous page">&#8249; Back</button>
+      <span id="bk-count" class="bk-count" aria-live="polite">Page 1 of 6</span>
+      <button id="bk-next" class="btn btn-ghost" type="button" aria-label="Next page">Next &#8250;</button>
+    </div>
+  </section>
+
+  <section id="finale-gate" class="section" aria-labelledby="fg-title">
+    <h2 id="fg-title" class="section-title reveal">One last surprise</h2>
+    <div class="glass progress reveal">
+      <ul id="progress-list" class="progress-list">
+        <li data-task="cake"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.500l4.500 4.500L19 7.500"/></svg></span>Make a wish and blow out the candles</li>
+        <li data-task="letters"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.500l4.500 4.500L19 7.500"/></svg></span>Read all three letters</li>
+        <li data-task="memories"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.500l4.500 4.500L19 7.500"/></svg></span>Visit the memory gallery</li>
+        <li data-task="scrapbook"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.500l4.500 4.500L19 7.500"/></svg></span>Turn to the last page of the memory book</li>
+      </ul>
+      <p id="finale-hint" class="status" aria-live="polite"></p>
+      <button id="finale-btn" class="btn" type="button" disabled>Open the final surprise</button>
+    </div>
+    <div class="flower-row" data-flowers="5"></div>
+    <p class="footer-note">Made with love, just for <span data-name>Parima</span></p>
+  </section>
+</main>
+
+<!-- Letter modal -->
+<div id="letter-modal" class="modal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <article class="letter-paper" role="dialog" aria-modal="true" aria-labelledby="lm-title" tabindex="-1">
+    <button class="modal-close" type="button" data-close aria-label="Close letter"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.500" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <p id="lm-kicker" class="eyebrow"></p>
+    <h3 id="lm-title" class="lm-title"></h3>
+    <div id="lm-body" class="lm-body"></div>
+    <p id="lm-sign" class="lm-sign lm-line"></p>
+    <svg class="lm-seal" aria-hidden="true"><use href="#heart"/></svg>
+  </article>
+</div>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button id="lb-close" class="lb-btn lb-close" type="button" aria-label="Close photo viewer"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.500" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <button id="lb-prev" class="lb-btn lb-nav lb-prev" type="button" aria-label="Previous photo"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.500" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <button id="lb-next" class="lb-btn lb-nav lb-next" type="button" aria-label="Next photo"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.500" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+  <figure class="lb-frame">
+    <img id="lb-img" alt="">
+    <figcaption>
+      <input id="lb-cap" class="lb-cap" type="text" maxlength="80" placeholder="Add a caption..." aria-label="Photo caption">
+      <div class="lb-meta"><span id="lb-count"></span>
+        <button id="lb-replace" class="btn btn-ghost btn-sm" type="button">Replace</button>
+        <button id="lb-delete" class="btn btn-ghost btn-sm" type="button">Remove</button>
+      </div>
+    </figcaption>
+  </figure>
+</div>
+
+<!-- Final surprise -->
+<section id="finale" class="finale hidden" aria-label="Final surprise">
+  <svg class="finale-art" viewBox="0 0 320 270" aria-hidden="true">
+    <defs>
+      <linearGradient id="fgHeart" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc2d6"/><stop offset=".55" stop-color="#ff8fb3"/><stop offset="1" stop-color="#e9739b"/></linearGradient>
+      <radialGradient id="fgGlow"><stop offset="0" stop-color="#fff6d6" stop-opacity=".95"/><stop offset="1" stop-color="#ffd6e4" stop-opacity="0"/></radialGradient>
+    </defs>
+    <circle class="fa-glow" cx="160" cy="112" r="130" fill="url(#fgGlow)"/>
+    <g class="fa-heart"><path transform="translate(88 44) scale(4.500)" fill="url(#fgHeart)" d="M16 28.500C6.500 20.500 1.500 15.200 1.500 9.400 1.500 5 4.900 1.800 9 1.800c2.900 0 5.500 1.500 7 4 1.500-2.500 4.100-4 7-4 4.100 0 7.500 3.200 7.500 7.600 0 5.800-5 11.100-14.500 19.100z"/></g>
+    <g class="orb o1"><use href="#heart" x="152" y="2" width="16" height="15" style="color:#ffb3c8"/></g>
+    <g class="orb o2"><use href="#sparkle" x="150" y="4" width="18" height="18" style="color:#f3d27a"/></g>
+    <g class="orb o3"><use href="#heart" x="152" y="-2" width="12" height="11" style="color:#ffd0b8"/></g>
+    <use class="tw1" href="#sparkle" x="20" y="30" width="22" height="22" style="color:#f3d27a"/>
+    <use class="tw2" href="#sparkle" x="280" y="50" width="18" height="18" style="color:#fff"/>
+    <use class="tw3" href="#star" x="40" y="150" width="14" height="14" style="color:#f3d27a"/>
+    <g stroke="#8fcfa6" stroke-width="3" stroke-linecap="round" fill="none"><path d="M120 262C124 238 130 224 140 214"/><path d="M160 264V222"/><path d="M200 262C196 238 190 224 180 214"/></g>
+    <g fill="#9dd8b2"><ellipse cx="136" cy="246" rx="9" ry="4" transform="rotate(-30 136 246)"/><ellipse cx="186" cy="246" rx="9" ry="4" transform="rotate(30 186 246)"/></g>
+    <use class="fl1" href="#flower" x="124" y="194" width="34" height="34" style="color:#ffb3c8"/>
+    <use class="fl2" href="#flower" x="143" y="200" width="34" height="34" style="color:#fff"/>
+    <use class="fl3" href="#flower" x="164" y="194" width="34" height="34" style="color:#ffd0b8"/>
+    <use class="bf1" href="#butterfly" x="236" y="150" width="28" height="22" style="color:#ff9fbd"/>
+    <use class="bf2" href="#butterfly" x="52" y="96" width="22" height="18" style="color:#f3dfb0"/>
+  </svg>
+  <p class="eyebrow">for you</p>
+  <h2 id="finale-text" class="finale-text"></h2>
+  <div class="finale-actions">
+    <button id="finale-replay" class="btn" type="button">Replay the magic</button>
+    <button id="finale-back" class="btn btn-ghost" type="button">Back to the memories</button>
+  </div>
+</section>
+
+<script defer src="js/config.js"></script>
+<script defer src="js/animations.js"></script>
+<script defer src="js/gallery.js"></script>
+<script defer src="js/interactions.js"></script>
+<script defer src="js/main.js"></script>
+</body>
+</html>
