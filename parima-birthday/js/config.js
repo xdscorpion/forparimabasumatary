@@ -8,7 +8,7 @@ window.CONFIG = {
   passcode: "2009",                 // any 3-8 digits; the boxes adapt automatically
   passcodeHint: "",                 // optional hint shown under the boxes, e.g. "a very special year"
   title: "A Little World Made for {name} ♡",
-  from: "Someone who adores you",   // shown under every letter signature
+  from: "Someone who adores you, Sumyo Doley",   // shown under every letter signature
 
   intro: "Today is all about you, {name}. I made this little world just for you, with a few surprises hidden in every corner. Take your time, tap everything, and smile a lot.",
   introSign: "With love, Sumyo",
@@ -38,7 +38,7 @@ window.CONFIG = {
       kicker: "for your special day",
       title: "Happy Birthday, {name}!",
       paragraphs: [
-        "My dearest {name},",
+        "My dearest friend,",
         "Happy Birthday! I hope today wraps you up in laughter, your favourite things, and all the people who adore you.",
         "I wish you a year full of soft mornings, big adventures, and tiny moments that make your heart feel quiet and happy.",
         "May everything you hope for find its way to you."
@@ -51,11 +51,11 @@ window.CONFIG = {
       title: "Thank you, {name}",
       paragraphs: [
         "Dear {name},",
-        "Thank you for being exactly who you are. The way you care, the way you smile, the way you make ordinary days feel lighter, it all matters more than you know.",
+        "Thank you for being exactly who you are. The way you're so friendly, so chill, the way you talk, the sound of your voice, and how even a little conversation with you can make my most stressful days feel lighter, it all means more to me than you know.",
         "I am so grateful for you, for every kind word and every laugh we have shared.",
-        "On the hard days, please remember how many people are lucky to know you."
+        "On the hard days, please remember how many people are lucky to know you. But amongst all of them, I think I'm the luckiest to have you in my life."
       ],
-      sign: "Gratefully yours,"
+      sign: "Gratefully yours, Sumyo Doley"
     },
     {
       label: "A secret message",
@@ -64,11 +64,11 @@ window.CONFIG = {
       title: "You found the secret, {name}",
       paragraphs: [
         "Psst... {name},",
-        "You found the secret letter, so here is a secret: you are far more wonderful than you think you are.",
+        "You found the secret letter, so here's a secret, I've grown more attached to you than I ever expected.",
         "If nobody tells you today, I will. You are loved, you are enough, and you make the world softer just by being in it.",
         "Keep this one in your heart."
       ],
-      sign: "Your secret admirer of your smile,"
+      sign: "Your secret admirer of your smile, Sumyo Doley"
     }
   ],
 
